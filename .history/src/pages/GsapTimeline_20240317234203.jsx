@@ -68,10 +68,10 @@ const GsapTimeline = () => {
 
       <div className="mt-20 space-y-10">
         <button onClick={() => {
-          if (timeline.paused()) {
+          if (timeline.pause()) {
             timeline.play();
-          } else {
-            timeline.pause();
+          }else{
+            
           }
         }}>Play/Pause</button>
 

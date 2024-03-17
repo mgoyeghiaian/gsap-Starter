@@ -71,7 +71,7 @@ const GsapTimeline = () => {
           if (timeline.paused()) {
             timeline.play();
           } else {
-            timeline.pause();
+            timeline.paused();
           }
         }}>Play/Pause</button>
 
