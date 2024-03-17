@@ -5,7 +5,7 @@ const GsapFromTo = () => {
   // TODO: Implement the gsap.fromTo() method
   useGSAP(() => {
     gsap.fromTo('#red-box', {
-      x: 0,
+      x: 250,
       rotation: 0,
       borderRadius: '0%',
     }, {
@@ -15,7 +15,7 @@ const GsapFromTo = () => {
       yoyo: true,
       rotation: 360,
       duration: 2,
-      ease: 'bounce.out',
+      ease: 'power1.inOut',
     })
   }, [])
   return (
