@@ -11,12 +11,8 @@ const GsapStagger = () => {
       repeat: -1,
       yoyo: true,
       // stagger: 0.5,
-      stagger: {
-        amount: 0.4,
-        grid: [2,1],
-        axis: 'y',
-        ease: "circ.inOut",
-        from: "center",
+      stagger:{
+        
       }
     });
   }, [])
