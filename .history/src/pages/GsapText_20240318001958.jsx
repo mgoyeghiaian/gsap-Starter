@@ -15,7 +15,7 @@ const GsapText = () => {
     }, {
       opacity: 1,
       y: 0,
-      delay: 0.6,
+      delay: 0.5,
       stagger: 0.1
     })
   }, [])
